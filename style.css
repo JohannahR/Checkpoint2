@@ -1,0 +1,63 @@
+a{
+    color:teal;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    
+}
+
+h1{
+    color:teal;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    height: 100px;
+    text-align: center; 
+    font-family: 'Permanent Marker', cursive;
+    align-content: justify;
+    background-color:whitesmoke;
+    box-shadow: 5px 5px 10px gray;
+    transition: all 1s ease-in-out;
+    transform: translate(100px) rotate(360deg) scale(1);
+}
+      
+
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    text-align: flex-end;
+    color:teal;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-family: 'Permanent Marker', cursive;
+    align-content: center;
+    padding: 5px;
+    margin: 10px 10px 5px;
+
+}
+body{
+    background-image: url("./sunset.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+#article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: auto;
+    font-family: 'Permanent Marker', cursive; 
+ 
+}
+#container{
+    transition: all 1s ease-in-out;
+    transform: translate(100px) rotate(360deg) scale(.5);
+}
+@media
